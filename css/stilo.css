@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Raleway', sans-serif;
+}
+
+header {
+  width: 100%;
+  height: 100%;
+  padding: 5px;
+  background: #d43e9f;
+}
+nav {
+  width: 100%;
+  height: 30px auto;
+  background: #e0dad9;
+}
+
+main{
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+section {
+  width: 65%;
+  background: #d43e9f;
+  padding: 30px;
+}
+article {
+  margin: 20px auto;
+  width: 70%;
+  margin: auto;
+  background: #a1106e;
+}
+aside {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 35%;
+  background: #b6b3b2;
+  float: right;
+}
+
+.logo{
+  width: 70px;
+  height: 70px;
+  float: left;
+  margin-left: 10px;
+  margin-top: 20px;
+}
+
+.navegacion {
+  width: 1000px;
+  margin: 30px auto;
+  background: #fa63c5;
+}
+.navegacion ul {
+  list-style: none;
+}
+.menu > li {
+  position: relative;
+  display: inline-block;
+}
+.submenu {
+  position: absolute;
+  background: #b6b3b2;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 1.5s;
+}
+.menu > li:hover .submenu {
+  visibility: visible;
+  opacity: 1;
+  z-index: 999;
+}
+.menu > li > a {
+  display: block;
+  padding: 15px 20px;
+  color: #f4e960;
+  font-family: "Arial";
+  text-decoration: none;
+}
+.submenu li a {
+  display: block;
+  padding: 15px;
+  color: #0a0a09b7;
+  font-family: "Arial";
+  text-decoration: none;
+}
+.submenu li a:hover {
+  background: #fa63c5;
+}
+.menu > li > a:hover {
+  background: #b6b3b2;
+}
+
+.letra {
+  color: #ffffff;
+}
+
+article{
+  padding: 15px;
+  width: 80%;
+  height: 100%;
+}
+
+aside{
+  float: right;
+}
+
+article img {
+  margin: auto;
+  margin: auto;
+  width: 80%;
+  max-width: 600px;
+  height: 300px;
+}
+aside img {
+  padding-top: 10%;
+  padding-left: 10%;
+  width: 80%;
+  height: 70%;
+}
+
+footer {
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+  background: #a1106e;
+}
+
+
+.valores-lista{
+  margin-left: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+h3{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.historia{
+  color: #fff;
+  line-height: 1.2;
+  margin: auto;
+}
+/* Iconos*/
+.icon-phone:before { content: '\0xe807'; } /* ' ' */

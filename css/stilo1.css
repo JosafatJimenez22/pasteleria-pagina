@@ -1,0 +1,115 @@
+header {
+    width: 100%;
+    height: 100%;
+    background: #d43e9f;
+  }
+  nav {
+    width: 100%;
+    height: 30px auto;
+    background: #e0dad9;
+  }
+  
+  section {
+    width: 65%;
+    height: 500px;
+    background: #d43e9f;
+    float: left;
+  }
+  article {
+    margin: 20px auto;
+    width: 600px;
+    height: 200px;
+    background: #a1106e;
+  }
+  aside {
+    width: 35%;
+    height: 500px;
+    /*margin-top:10px;
+          margin-right:100px;*/
+    background: #b6b3b2;
+    float: right;
+  }
+  footer {
+    width: 100%;
+    height: 80px;
+    background: #a1106e;
+    clear: both;
+  }
+  .navegacion {
+    width: 1000px;
+    margin: 30px auto;
+    background: #fa63c5;
+  }
+  .navegacion ul {
+    list-style: none;
+  }
+  .menu > li {
+    position: relative;
+    display: inline-block;
+  }
+  .submenu {
+    position: absolute;
+    background: #b6b3b2;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 1.5s;
+  }
+  .menu > li:hover .submenu {
+    visibility: visible;
+    opacity: 1;
+  }
+  .menu > li > a {
+    display: block;
+    padding: 15px 20px;
+    color: #f4e960;
+    font-family: "Arial";
+    text-decoration: none;
+  }
+  .submenu li a {
+    display: block;
+    padding: 15px;
+    color: #0a0a09b7;
+    font-family: "Arial";
+    text-decoration: none;
+  }
+  .submenu li a:hover {
+    background: #fa63c5;
+  }
+  .menu > li > a:hover {
+    background: #b6b3b2;
+  }
+  /*llamado al tipo de letra*/
+  @font-face {
+    font-family: "La-chata-normal";
+    src: url("../font/La-chata-normal.ttf");
+  }
+  .letra {
+    color: #ffffff;
+    font-family: "La-chata-normal";
+  }
+  
+  article img {
+    padding-left: 15%;
+    width: 80%;
+    height: 60%;
+  }
+  aside img {
+    padding-top: 10%;
+    padding-left: 10%;
+    width: 80%;
+    height: 70%;
+  }
+  .subir {
+    float: left;
+  }
+  .centrar h4 {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-family: "La-chata-normal";
+  }
+  
+  
+  /* Iconos*/
+  .icon-phone:before { content: '\0xe807'; } /* ' ' */
+  
